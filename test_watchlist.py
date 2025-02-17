@@ -3,7 +3,6 @@ import unittest
 from app import app, db, Movie, User,forge,initdb
 from invoke import task
 
-
 class WatchlistTestCase(unittest.TestCase):
 
     def setUp(self):
